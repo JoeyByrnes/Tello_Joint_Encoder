@@ -1,0 +1,41 @@
+../Core/Src/Protocentral_ADS1220.cpp:44:1:Protocentral_ADS1220::Protocentral_ADS1220()	0	static
+../Core/Src/Protocentral_ADS1220.cpp:49:6:void Protocentral_ADS1220::writeRegister(uint8_t, uint8_t)	16	static
+../Core/Src/Protocentral_ADS1220.cpp:59:9:uint8_t Protocentral_ADS1220::readRegister(uint8_t)	24	static
+../Core/Src/Protocentral_ADS1220.cpp:119:6:void Protocentral_ADS1220::PrintRegisterValues()	8	static
+../Core/Src/Protocentral_ADS1220.cpp:133:6:void Protocentral_ADS1220::SPI_Command(uint8_t)	32	static
+../Core/Src/Protocentral_ADS1220.cpp:142:6:void Protocentral_ADS1220::ads1220_Reset()	16	static
+../Core/Src/Protocentral_ADS1220.cpp:71:6:void Protocentral_ADS1220::begin(GPIO_TypeDef*, uint16_t, GPIO_TypeDef*, uint16_t)	40	static
+../Core/Src/Protocentral_ADS1220.cpp:150:6:void Protocentral_ADS1220::Start_Conv()	0	static
+../Core/Src/Protocentral_ADS1220.cpp:156:6:void Protocentral_ADS1220::select_mux_channels(int)	4	static
+../Core/Src/Protocentral_ADS1220.cpp:163:6:void Protocentral_ADS1220::set_pga_gain(int)	4	static
+../Core/Src/Protocentral_ADS1220.cpp:170:6:void Protocentral_ADS1220::PGA_ON()	0	static
+../Core/Src/Protocentral_ADS1220.cpp:176:6:void Protocentral_ADS1220::PGA_OFF()	0	static
+../Core/Src/Protocentral_ADS1220.cpp:183:6:void Protocentral_ADS1220::set_data_rate(int)	4	static
+../Core/Src/Protocentral_ADS1220.cpp:190:6:void Protocentral_ADS1220::set_OperationMode(int)	4	static
+../Core/Src/Protocentral_ADS1220.cpp:197:6:void Protocentral_ADS1220::set_conv_mode_single_shot()	0	static
+../Core/Src/Protocentral_ADS1220.cpp:203:6:void Protocentral_ADS1220::set_conv_mode_continuous()	0	static
+../Core/Src/Protocentral_ADS1220.cpp:209:6:void Protocentral_ADS1220::TemperatureSensorMode_disable()	0	static
+../Core/Src/Protocentral_ADS1220.cpp:215:6:void Protocentral_ADS1220::TemperatureSensorMode_enable()	0	static
+../Core/Src/Protocentral_ADS1220.cpp:221:6:void Protocentral_ADS1220::CurrentSources_OFF()	0	static
+../Core/Src/Protocentral_ADS1220.cpp:227:6:void Protocentral_ADS1220::CurrentSources_ON()	0	static
+../Core/Src/Protocentral_ADS1220.cpp:234:6:void Protocentral_ADS1220::set_VREF(int)	4	static
+../Core/Src/Protocentral_ADS1220.cpp:241:6:void Protocentral_ADS1220::set_FIR_Filter(int)	4	static
+../Core/Src/Protocentral_ADS1220.cpp:248:6:void Protocentral_ADS1220::LowSideSwitch_OPEN()	0	static
+../Core/Src/Protocentral_ADS1220.cpp:254:6:void Protocentral_ADS1220::LowSideSwitch_CLOSED()	0	static
+../Core/Src/Protocentral_ADS1220.cpp:260:6:void Protocentral_ADS1220::set_IDAC_Current(int)	4	static
+../Core/Src/Protocentral_ADS1220.cpp:268:6:void Protocentral_ADS1220::set_IDAC1_Route(int)	4	static
+../Core/Src/Protocentral_ADS1220.cpp:275:6:void Protocentral_ADS1220::set_IDAC2_Route(int)	4	static
+../Core/Src/Protocentral_ADS1220.cpp:282:7:void Protocentral_ADS1220::DRDYmode_default()	0	static
+../Core/Src/Protocentral_ADS1220.cpp:288:7:void Protocentral_ADS1220::DRDYmode_DOUT()	0	static
+../Core/Src/Protocentral_ADS1220.cpp:295:11:uint8_t* Protocentral_ADS1220::get_config_reg()	8	static
+../Core/Src/Protocentral_ADS1220.cpp:312:6:bool Protocentral_ADS1220::WaitForData(unsigned int)	8	static
+../Core/Src/Protocentral_ADS1220.cpp:335:10:uint8_t* Protocentral_ADS1220::Read_Data()	32	static
+../Core/Src/Protocentral_ADS1220.cpp:344:9:int32_t Protocentral_ADS1220::DataToInt()	0	static
+../Core/Src/Protocentral_ADS1220.cpp:357:9:int32_t Protocentral_ADS1220::Read_WaitForData()	8	static
+../Core/Src/Protocentral_ADS1220.cpp:370:10:uint8_t* Protocentral_ADS1220::Read_Data_Immediate()	0	static
+../Core/Src/Protocentral_ADS1220.cpp:376:9:int32_t Protocentral_ADS1220::Read_Data_Samples()	24	static
+../Core/Src/Protocentral_ADS1220.cpp:393:9:int32_t Protocentral_ADS1220::Read_SingleShot_WaitForData()	8	static
+../Core/Src/Protocentral_ADS1220.cpp:399:6:void Protocentral_ADS1220::Start_SingleShot_Conv()	0	static
+../Core/Src/Protocentral_ADS1220.cpp:404:9:int32_t Protocentral_ADS1220::Read_SingleShot_SingleEnded_WaitForData(uint8_t)	8	static
+../Core/Src/Protocentral_ADS1220.cpp:414:6:void Protocentral_ADS1220::internal_reference()	0	static
+../Core/Src/Protocentral_ADS1220.cpp:420:6:void Protocentral_ADS1220::external_reference()	0	static

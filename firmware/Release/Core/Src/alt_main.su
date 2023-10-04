@@ -1,0 +1,6 @@
+../Core/Src/alt_main.cpp:63:10:uint16_t AS5147_Read_Pos()	0	static
+../Core/Src/alt_main.cpp:78:10:uint16_t AS5147_Read_Vel()	0	static
+../Core/Src/alt_main.cpp:93:9:int32_t twoscomp14bit_to_int(int16_t)	0	static
+../Core/Src/alt_main.cpp:104:5:int alt_main()	8	static
+../Core/Src/alt_main.cpp:132:6:void setSPIMode(int)	0	static
+../Core/Src/alt_main.cpp:148:6:void main_1KHz_interrupt()	1048	static
